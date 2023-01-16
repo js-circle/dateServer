@@ -30,6 +30,7 @@ app.get('/api/remaining-time', (req, res) => {
   res.json({ remainingTime });
 });
 
+
 app.listen(port, () => {
   console.log('Server listening on port '+port);
 });
